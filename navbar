@@ -1,0 +1,156 @@
+
+----------------------------------HTML------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Web Page</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"> React Classes</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#" >HTML</a></li>
+                    <li><a href="#" >CSS</a></li>
+                    <li><a href="#" >JAVA SCRIPT</a></li>
+                    <li><a href="#" >REACT.JS</a></li>
+                    <li><a href="#" >ABOUT</li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="type here...">
+                <a href="#"><button class="btnn">Search</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+----------------------------------------------CSS-------------------------------------------
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: url(Background-Image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+}
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+    background-color: rgb(123, 142, 142);
+    
+    
+
+}
+.icon{
+    width: 215px;
+    float: left;
+    height: 50px;
+    text-align: center;
+    
+}
+.logo{
+    color: #dd041aa7;
+    font-size: 25px;
+    font-family:  Arial;
+    float: left;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 50px;
+   
+}
+ul{
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    font-size: 15px;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+ul li:nth-child(3){
+    width: 94px;
+}
+ul a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    color: #01120ac4;
+    transition: 0.4s ease-in-out;
+    font-family: Arial;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    
+    margin-left : 51px;
+    width: 100;
+    float: left;
+    
+    
+}
+/* .search{
+    margin-top: 5px;
+} */
+/* .btnn{
+    margin-top: 5px;
+} */
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color:#060000;
+    border-right: none;
+    float: left;
+    font-size: 16px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btnn{
+    width: 100px;
+    height: 30px;
+    background: #ff7200;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btnn:focus{
+    outline: none;
+}
+.btnn:focus{
+    outline: none;
+}
+.btnn:hover{
+    color: rgb(49, 11, 184);
+    background-color: aliceblue;
+}
