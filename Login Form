@@ -1,0 +1,146 @@
+---------------------------------------------HTML------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>My Site</title>
+  <link rel="stylesheet" href="prac.css" >
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <div class="wrapper">
+    <form>
+     <h1>Login</h1>
+     <div class="input-box">
+      <input type="text" placeholder="Username" required>
+      <i class='bx bxs-user'></i>
+     </div>
+     <div class="input-box">
+      <input type="password" placeholder="password" required>
+      <i class='bx bxs-lock-alt'></i>
+     </div>
+     <div class="remember-forgot">
+      <label> <input type="checkbox" >Remember me  </label>
+      <a href="#" >forgot password?</a>
+     </div>
+     <button class="btn" type="submit">Login</button>
+
+     <div class="rigester-link">
+      <p>don't have an account?<a href="#" >Register</a> </p>
+     </div>
+    </form>
+   </div>
+  
+</body>
+</html>
+
+---------------------------------------------------------CSS------------------------------------------------------
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background: url(2832161.jpg) no-repeat;
+    
+    background-size: cover;
+    background-position:center ;
+}
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgba(255,255 ,255 , 0.2) ;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    border: solid rgba(255,255 ,255 , 0.2);
+    font-size: 15px;
+    padding: 20px 45px 20px 20px;
+    color: #fff;
+
+
+    
+}
+.input-box input::placeholder{
+    color: #fff;
+
+}
+.input-box i{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.wrapper .remember-forgot{
+ font-size: 14.4px;
+ display: flex;
+ justify-content: space-between;
+ margin: -15px 0 15px;
+}
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+    
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0 ,0 , 0.1);
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .rigester-link{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0px 15px;
+    
+}
+.rigester-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.rigester-link p a:hover{
+    text-decoration: underline;
+}
