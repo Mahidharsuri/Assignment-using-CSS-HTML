@@ -1,0 +1,190 @@
+--------------------------------------------------------HTML---------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Web Page</title>
+    <link rel="stylesheet" href="prac.css">
+    <script src="https://kit.fontawesome.com/a089722174.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    
+    <nav class="navbar">
+    
+    <div class="logos">
+        <i class="fa-solid fa-bars fa-2x"></i>
+        <i class="fa-solid fa-house fa-2x"></i>
+        <i class="fa-regular fa-user fa-2x"></i>
+        <i class="fa-regular fa-image fa-2x"></i>
+    </div>
+    <div class="online">ONLINE CLASSES</div>
+           
+    </nav>
+    
+  <div class="container" >
+    <div class="menu">
+        <ul>
+            <li class="active">HTML</li>
+            <li>CSSL</li>
+            <li>JAVA SCRIPT</li>
+            <li>REACT.JS</li>
+            <li>NEXT.JS</li>
+        </ul>
+    </div>
+   
+  </div>
+  <div class="main">
+    <br>
+    <br>
+    <br>
+    <br>
+    <pre>
+        
+        What is HTML?
+
+
+        HTML stands for Hyper Text Markup Language
+
+        HTML is the standard markup language for creating Web pages
+
+        HTML describes the structure of a Web page
+
+        HTML consists of a series of elements
+
+        HTML elements tell the browser how to display the content
+
+        HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+    
+    </pre>
+  </div>
+</body>
+</html>
+
+-------------------------------------------------CSS-----------------------------------------------------------
+
+body{
+    background:url(S1jatp.webp);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.navbar{
+    height: 60px;
+    width: 1500px;
+    background-color: darkcyan;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    border-bottom: 1px solid rgb(23, 20, 20);
+}
+.edge{
+    width: 50px;
+    height: 60px;
+    background-color: #ff7200;
+    top: 0;
+    position: fixed;
+    left: 0;
+}
+    
+.container{
+    height: 900px;
+    width: 150px;
+    background-color: aqua;
+    margin-top:0;
+    padding: 0;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background: transparent;
+   
+}
+ .menu{
+    height: 570px;
+    width: 250px;
+    float: left;
+    /* background-color: black; */
+    
+}
+ ul li{
+    display: block;
+    height: 5px;
+    width: 120px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+    margin-left: 0;
+    padding: 40px;
+    
+}
+.menu li:hover{
+    color: blue;
+    /* background-color: #969fa7; */
+}
+.menu li::before{
+    content: ">  ";
+    left: 5px;
+}
+.menu .active {
+    color:rgb(243, 252, 0);
+}
+
+.main{
+    width: 1000px;
+    height: 130px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    background: transparent;
+    
+}
+.main pre{
+    background-color: rgba(219, 197, 197, 0.459);
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hwb(305 0% 0%);
+    
+    
+    
+}
+
+.logos{
+    
+    height: 60px;
+    width: 600px;
+    text-align: left;
+    padding: 10px ;
+    
+
+}
+
+i{
+    color: #ece5e0;
+    display: inline-block;
+    width: 120px;
+    padding-left: 10px;
+    background-color: transparent;
+    margin-top: 0px;
+}
+i:hover{
+    color: aqua;
+}
+/* .fa-solid.fa-bars{
+    color: #ece5e0;
+    
+    
+} */
+.online{
+    position: absolute;
+    color: aliceblue;
+    top: 11px;
+    left: 600px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: transparent;
+    text-shadow: 3px 3px 5px red,-3px -5px 5px rgb(67, 34, 234);
+}
