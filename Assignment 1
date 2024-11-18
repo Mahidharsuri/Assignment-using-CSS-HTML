@@ -1,0 +1,88 @@
+
+-----------------------------------------------HTML-----------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="prac.css">
+  <title>My site</title>
+</head>
+<body>
+  <div class="container" >
+    <img src="doctor.jpg" alt="doctor pic">
+    <h1 >I'm <span>in</span> in the hospital.</h1>
+    
+      <h3>it means <span>you are hospitalised</span></h3>
+  
+  </div>
+  <div class="container1">
+    <img src="doc1.jpg" alt="doc1">
+    <h1>I'm <span>at</span> the hospital.</h1>
+    <h3>it means you are <span>visiting someone</span> who has been hospitalised</h3>
+  </div>
+</body>
+</html>
+
+-----------------------------------------CSS-----------------------------------------------------------
+.container{
+    height: 150px;
+    /* background-color: blue; */
+}
+.container h1{
+    color: black;
+    position: absolute;
+    left: 200px;
+    
+}
+.container h3{
+    color: black;
+    position: absolute;
+    left: 260px;
+    top: 47px;
+    
+    
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+h3 span {
+    color: rgb(70, 245, 0);
+}
+.container img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.container1{
+    height: 400px;
+    width: 100%;
+    /* background-color: blue; */
+    
+}
+span{
+    color: red;
+}
+.container1 h1{
+    position: absolute;
+    left: 200px;
+}
+h3 span {
+    color: rgb(70, 245, 0);
+}
+.container1 h3{
+    position: absolute;
+    left: 235px;
+    top: 198px;
+    width: 230px;
+    font-size: 15px;
+    
+    
+}
+.container1 img{
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
