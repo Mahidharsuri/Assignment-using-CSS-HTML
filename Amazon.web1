@@ -1,0 +1,427 @@
+----------------------------------------------------------HTML------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>online shopping site in india</title>
+  <link rel="stylesheet" href="prac.css"/>
+  <script src="https://kit.fontawesome.com/a089722174.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <header class="navbar">
+      <!-- -----------------------------box-1--------------------------------------  -->
+      <div class="container">
+        <div class="logo border-white" > 
+          
+        </div>
+        <!-- -----------------------------box-3--------------------------------------  -->
+        <div class="text">
+          <div class="text1">
+          <span class="p1">Deliverin to Hydrabad 500001</span>
+          <span class="p2"><i class="fa-solid fa-location-dot fa-1xl"></i>Update Location</span>
+          </div>
+        </div>
+        <!-- -----------------------------box-3--------------------------------------  -->
+        <div class="nav-search">
+         <select class="search-select">
+          <option>All</option>
+         </select>
+         <input placeholder="Search Amazon" class="search-input"/>
+         <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+         </div>
+        </div>
+        <!-- -----------------------------box-4--------------------------------------  -->
+        <div class="lan">
+          <div class="container1">
+            <div class="sub-container">
+              <img src="india.jpg" alt="india flag" class="img-select"/>
+              <span>EN</span>
+          <select class="lan-select">
+           </select>
+            </div>
+          </div>
+        </div>
+        <!-- -----------------------------box-5--------------------------------------  -->
+         <div class="sign">
+          <div class="line-1">
+            <p>Hello,sign in</p>
+          </div>
+          <div class="line-2">
+            <p>Accounts&Lists</p>
+          </div>
+         </div>
+         <!-- -----------------------------box-6--------------------------------------  -->
+         <div class="orders">
+          <div class="line-1">
+            <p>Returns</p>
+          </div>
+          <div class="line-2">
+            <p>& Orders</p>
+          </div>
+         </div>
+         <!-- -----------------------------box-7--------------------------------------  -->
+          <div class="cart">
+            <div class="cart-logo">
+              <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+              <div class="zero">Cart</div>
+            </div>
+          </div>
+      </div>
+     
+      <div class="navbar1">
+        <div class="logo1"><i class="fa-solid fa-bars fa-lg"></i>All</div>
+        <div class="menu">
+            <p>Fresh</p>
+            <p>MX Player</p>
+            <p>Sell</p>
+            <p>Best Seller</p>
+            <p>Today's Deals</p>
+            <p>Mobiles</p>
+            <p>Electronics</p>
+            <p>Home&Kitchen</p>
+            <p>Customer Services</p>
+            <p>Prime</p>
+        </div>
+
+      </div>
+
+     </header>
+                                 <!-- create main page -->
+      <div class="main-1">
+       
+
+      </div>
+      
+
+</body>
+
+---------------------------------------------------------------CSS-----------------------------------------------------------------
+*{
+    box-sizing: border-box;
+}
+body{margin: 0%;}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    margin: 0%;
+    align-items: center;
+    /* display: flex; */
+}
+.container{
+    height: 55px;
+    /* width: 100%; */
+    overflow: hidden;
+    display: flex;
+  
+    
+    /* background-color: rgb(59, 96, 129); */
+    padding: 4px 8px 0px 6px;
+
+
+                       /* -----------------------------box-1-------------------------------------- */
+}
+.logo {
+    height: 50px;
+    width: 111px;
+    background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541718031_.png);
+    background-position-y: -40px;
+    color: #007185;
+    margin-left: 1%;
+    /* margin: 1.1%; */
+}
+.border-white{
+    border: 1.5px solid transparent;
+}
+.border-white:hover{
+    border: 1px solid white;
+}
+.logo span{
+    color: white;
+    width: auto;
+    padding-top:16.5;
+}
+
+                        /* -----------------------------box-2-------------------------------------- */
+.text{
+    color: white;
+    height: 50px;
+    width: 200px;
+    padding-left: 10px;
+    
+    
+    
+    /* background-color: blue; */
+    
+}
+.p1{
+    height: 14px;
+    padding-left:15px ;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sans-serif;
+    
+}
+.p2{
+    /* line-height: 15px; */
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 14px;
+    /* margin-left: -6px; */
+    
+}.text:hover{
+    border: 1px solid white; 
+}
+.fa-solid.fa-location-dot{
+    margin-left: 0px;
+   
+}
+.text1{
+   
+    padding-top: 5px;
+    /* padding-left: 10px; */
+}
+
+                                   /* -----------------------------box-3-------------------------------------- */
+.nav-search{
+    color: #fff;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    background-color: #e6e6e6;
+    padding: 10px 4px 10px 3px;
+    margin-left: 10px;
+    margin-top: 5px;
+    /* margin-left: 1%px; */
+    
+}
+.search-select{
+    position: absolute;
+    width: 51.33px;
+    height: 35px;
+    font-size: 14px;
+    color: #0f1111;
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+    padding: 5px 0px 5px 5px;
+    /* margin-top: 5px; */
+    top: 12px;
+    border: none;
+}
+.search-input{
+    width: 400px;
+    height: 35px;
+    position: absolute;
+    padding: 7px 10px 10px 0px ;
+    top: 12px;
+    left: 399.33px;
+    border: none;
+    background-color: #fff;
+    /* background-color: #e6e6e6; */
+
+}
+.search-icon{
+    color: black;
+    padding: 13px;
+   width: 45px;
+   height: 40px;
+   position: absolute;
+   background-color: rgb(230, 172, 96);
+   top: 9px;
+   /* left: 837.33px; */
+   left: 800px;
+
+}
+
+
+                        /* -----------------------------box-4-------------------------------------- */
+
+.lan{
+    height: 50px;
+    width: 73px;
+    /* background-color: #fff; */
+    margin-left: 20px;
+    padding: 0px 9px 5px;
+    /* margin: 0px 0px 0px 1px; */
+    
+}
+.lan .container1{
+    height: 33px;
+    width: 55.3px;
+    margin-top: 15px;
+    /* background-color: #0f1111; */
+}
+.sub-container{
+    height: 19px;
+    width: 54.38px;
+    /* background-color: #fff; */
+    padding-top: 7px;
+    display: flex;
+}
+.img-select {
+    width: 20px;
+    height: 15px;
+    margin-top: 0px;
+}
+/* .lan-select{
+    width: 13px;
+    height: 10px;
+    margin-top: 2px;
+    padding-left: 1px;
+} */
+.lan-select {
+    width: 9px;
+    height: 9px;
+    margin-top: 6px;
+    margin-left: 2px;
+    /* background-color: transparent; */
+}
+.sub-container span{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:4px ;
+    margin-top: 1px;
+    
+}
+.lan:hover{
+    border: 1px solid white; 
+}
+
+                     /* -----------------------------box-5-------------------------------------- */
+.sign{
+    width: 125.52px;
+    height: 50px;
+    padding-left: 5px;
+    /* background-color: #e6e6e6; */
+
+}
+.line-1{
+    width: 113.52px;
+    height: 14px;
+    color: #ffffff;
+    font-family: Arial,  sans-serif;
+    font-size: 12px;
+    /* padding: 9px 0px 0px; */
+    position: relative;
+    top: 0px;
+    /* background-color: aqua; */
+}
+.line-2{
+    width: 113.52px;
+    height: 15px;
+    font-family: Arial,  sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    /* background-color: aqua; */
+    position: relative;
+    top: -15px;
+    font-weight: bold;
+}
+.sign:hover{
+    border: 1px solid white; 
+}
+.orders{
+    width: 85.52px;
+    height: 50px;
+    padding-left: 5px;
+    /* background-color: #e6e6e6; */
+}
+.orders:hover{
+    border: 1px solid white; 
+}
+
+                      /* -----------------------------box-6------------------------------------- */
+
+.cart{
+    width: 110px;
+    height: 50px;
+    margin: 0px 3px 0px 10px;
+    padding: 0px px 11px;
+    /* background-color: #d6d6d6; */
+    display: flex;
+
+}
+.cart-logo{
+    width: 50px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.zero{
+    position: relative;
+    left: 40px;
+    bottom: 13px;
+    font-family: serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #d6d6d6;
+}
+.fa-solid.fa-cart-shopping.fa-2xl{
+    color: #d6d6d6;
+}
+.cart:hover{
+    border: 1px solid white; 
+}
+                    /* -----------------------------pannel------------------------------------- */
+.navbar1{
+    width:100%;
+    height: 39px;
+    background-color: #222f3d;
+    align-items: center;
+    
+}
+
+.menu{
+    /* color:#ffffff; */
+    color: #0f1111;
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 10px;
+    
+    
+    
+}
+
+
+.menu  p{
+    list-style: none;
+    /* background-color: aqua; */
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    display: block;
+    color: #ffffff;
+    
+   
+    
+   
+}
+.logo1{
+    color: #ffffff;
+    position: relative;
+    top: 8px;
+    left: 3px;
+}
+/* background image */
+.main-1{
+    background-image: url(amazon.in.jpg);
+    background-size:cover ;
+    height: 600px;
+    
+    position: relative;
+    top: 34px;
+    
+}
