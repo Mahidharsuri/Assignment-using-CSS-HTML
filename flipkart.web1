@@ -1,0 +1,262 @@
+-------------------------------------------------------HTML------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a089722174.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://lumincoat.com/wp-content/uploads/2022/09/aa708d1f97a04f6f5a208213f89e1e67-600x629.png"/>
+    <title>Online shopping site for Moiles&Electronics</title>
+    <link rel="stylesheet" href="flip.css"/>
+</head>
+<body>
+    <header class="banner">
+        <div class="container">
+           <div class="logo">
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"/>
+           </div>
+           <div class="search-input">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <input class="bar" placeholder="search for Products,Brands and more" type="text" title="search for Products,Brands and more" />
+           </div>
+           <div class="login">
+            <div class="user"><i class="fa-regular fa-user fa-lg"></i></div>
+            <div class="text">Login</div>
+            <div class="select">
+                <select>
+                    <option></option>
+                </select>
+            </div>
+           </div>
+           <div class="cart">
+            <div class="cart-logo"><i class="fa-solid fa-cart-shopping fa-lg"></i></div>
+            <div class="text">Cart</div>
+           
+           </div>
+           <div>
+           <div class="seller">
+           <div class="seller-logo"><i class="fa-solid fa-shop fa-lg"></i></i></div>
+           <div class="text">Become a Seller</div>
+           <div class="dots"><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></div>
+        
+           </div>
+           
+        
+
+        </div>
+        
+
+    </header>
+    <div class="gallery">
+        <div class="img-hold1">
+        <div class="img1"><img src="img.1.webp" alt="image of nothing" height="64px" width="64px">Grocery</div>
+        </div>
+        <div class="img-hold1">
+            <div class="img1"><img src="img.22.jpg" alt="image of nothing" height="64px" width="64px">Mobiles</div>
+            </div>
+        <div class="img-hold1">
+            <div class="img1"><img src="img.3.webp" alt="image of nothing" height="64px" width="64px">Appliances</div>
+            </div>
+        <div class="img-hold1">
+            <div class="img2"><img src="img.4.webp" alt="image of nothing" height="64px" width="64px">Flight Bookings </div>
+            </div>
+        <div class="img-hold1">
+            <div class="img3"><img src="image.fashion.webp" alt="image of nothing" height="64px" width="64px"> Fashion</div>
+            </div>
+        <div class="img-hold1">
+            <div class="img3"><img src="image.laptop.jpg" alt="image of nothing" height="64px" width="64px"> Electronics</div>
+         </div>
+         <div class="img-hold1">
+            <div class="img3"><img src="imagae.furniture.jpg" alt="image of nothing" height="64px" width="64px">Home & Furniture</div>
+            </div> 
+            <div class="img-hold1">
+                <div class="img3"><img src="img.8.jpg" alt="image of nothing" height="64px" width="64px">Toys</div>
+                </div> 
+                <div class="img-hold1">
+                    <div class="img3"><img src="images.bikes.jpg" alt="image of nothing" height="64px" width="64px">Two Wheelers</div>
+                    </div>          
+    </div>
+    <div class="gallery1">
+        <div><img src="flipp.webp" alt="flipkart"/> </div>
+    </div>
+    
+    <div class="gallery">
+        <h1>Best Of Electronics</h1>
+        <div class="img-hold1">
+        <div class="img1"><img src="img.1.webp" alt="image of nothing" height="64px" width="64px">Grocery</div>
+        </div>
+        <div class="img-hold1">
+            <div class="img1"><img src="img.22.jpg" alt="image of nothing" height="64px" width="64px">Mobiles</div>
+            </div>
+        <div class="img-hold1">
+            <div class="img1"><img src="img.3.webp" alt="image of nothing" height="64px" width="64px">Appliances</div>
+            </div>
+        <div class="img-hold1">
+            <div class="img2"><img src="img.4.webp" alt="image of nothing" height="64px" width="64px">Flight Bookings </div>
+            </div>
+        <div class="img-hold1">
+            <div class="img3"><img src="image.fashion.webp" alt="image of nothing" height="64px" width="64px"> Fashion</div>
+            </div>
+        <div class="img-hold1">
+            <div class="img3"><img src="image.laptop.jpg" alt="image of nothing" height="64px" width="64px"> Electronics</div>
+         </div>
+         <div class="img-hold1">
+            <div class="img3"><img src="imagae.furniture.jpg" alt="image of nothing" height="64px" width="64px">Home & Furniture</div>
+            </div> 
+            <div class="img-hold1">
+                <div class="img3"><img src="img.8.jpg" alt="image of nothing" height="64px" width="64px">Toys</div>
+                </div> 
+                <div class="img-hold1">
+                    <div class="img3"><img src="images.bikes.jpg" alt="image of nothing" height="64px" width="64px">Two Wheelers</div>
+                    </div>          
+    </div>
+
+
+
+    <!-- <div class="gallery">
+        <div><img src="flip2.jpg" alt="image of nothing" height="100px" width="100px"></div>
+        <div><img src="flip1.jpg" alt="image of nothing"></div>
+        <div><img src="img.1.webp" alt="image of nothing"></div>
+        <div><img src="img.3.webp" alt="image of nothing"></div>
+        <div><img src="img.4.webp" alt="image of nothing"></div>
+    </div> -->
+    
+        
+ 
+        
+    
+    
+    
+</body>
+</html>
+--------------------------------------------------------------CSS----------------------------------------------------------
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: #d4d2d28c;
+}
+.banner{
+    width: 100%;
+    height: 67px;
+    /* background-color:#397dc6 ; */
+    
+    
+    
+    
+    
+}
+.container{
+    height: 40px;
+    background-color: white;
+    padding: 12px;
+    display: flex;
+}
+.search-input{
+    width: 480px;
+    height: 40px;
+    margin-left: 40px;
+    /* background-color: #397dc6; */
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.bar{
+    position: relative;
+    /* background-color: aquamarine; */
+    height: 38px;
+    width: 241px;
+    border: none;
+    background-color: aliceblue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.fa-solid.fa-magnifying-glass.fa-lg{
+    height: 40px;
+    width: 20px;
+    color: rgb(150, 150, 150);
+    /* color:rebeccapurple; */
+    padding: 8px 8px 8px 15px;
+}
+.login{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.user{
+    margin-top: 10px;
+}
+.text{
+    font-size: 16px;
+    margin-left: 13px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+.select{
+    margin-top: 10px;
+    margin-left: 3px;
+    
+}
+.login:hover{
+    background-color: rgba(0, 74, 247, 0.837);
+}
+.cart{
+    display: flex;
+    margin-left: 45px;
+}
+.cart-logo{
+    margin-top: 10px;
+}
+.seller{
+    display: flex;
+    margin-left: 45px;
+}
+.seller-logo{
+    margin-top: 10px;
+}
+.dots{
+    
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.gallery{
+    height: 150px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+}
+.img1{
+    height: 64px;
+    width: 64px;
+    padding: 16px 16px 16px 24px;
+    font-weight: 600;
+    
+    
+}
+.img2{
+    height: 64px;
+    width: 64px;
+    font-weight: 600;
+    padding: 16px 16px 16px 24px;
+    
+    
+}
+.img3{
+    height: 64px;
+    width: 64px;
+    padding: 16px 16px 16px 24px;
+    font-weight: 600;
+    
+}
+.img-hold1{
+    height: 150px;
+    width: 145px;
+    
+    
+}
+.gallery1{
+    margin-top:10px ;
+}
