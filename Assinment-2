@@ -1,0 +1,135 @@
+-----------------------------------------------------HTML--------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a089722174.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-123</title>
+    <link rel="stylesheet" href="fily.css"/>
+</head>
+<body>
+<div class="center">
+    <div class="container">
+        <div class="logo">
+  
+            <i class="fa-brands fa-twitter fa-2xl"></i>
+        </div>
+        <div class="twitter"><h2>TWITTER</h2></div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur . ipsa nulla! Explicabo voluptate vel pariatur repudiandae similique  distinctio?</div>
+        <div class="btn"><button>READ MORE</button></div>
+        
+
+    </div>
+    <div class="container-1">
+        <div class="logo-1">
+  
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+        </div>
+        <div class="instagram"><h2>INSTAGRAM</h2></div>
+        <div class="content-1">Lorem ipsum dolor sit amet consectetur . ipsa nulla! Explicabo voluptate vel pariatur repudiandae similique  distinctio?</div>
+        <div class="btn-1"><button>READ MORE</button></div>
+        
+
+    </div>
+    <div class="container">
+        <div class="logo">
+  
+            <i class="fa-brands fa-youtube fa-2xl"></i>
+        </div>
+        <div class="twitter"><h2>YOUTUBE</h2></div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur . ipsa nulla! Explicabo voluptate vel pariatur repudiandae similique  distinctio?</div>
+        <div class="btn"><button>READ MORE</button></div>
+        
+
+    </div>
+</div>
+    
+</body>
+</html>
+
+------------------------------------------------------------CSS---------------------------------------------------
+
+
+body{
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+
+    
+}
+
+.container{
+    /* background-color: aqua; */
+    height: 200px;
+    width: 150px;
+    padding: 25px ;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.twitter{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.content{
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.btn button{
+    color: #fff;
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+    
+}
+
+/* ------------------------------box-2---------------------- */
+
+.container-1{
+    background-color:#b10262;
+    height: 200px;
+    width: 150px;
+    padding: 25px ;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.instagram{
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: #fff;
+}
+.content-1{
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.btn-1 button{
+    color: #040404;
+    background-color:#fff;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+    
+}
+.logo-1{
+    color: #fff;
+}
