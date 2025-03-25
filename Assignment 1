@@ -5,7 +5,7 @@
 <head>
   <link rel="stylesheet" href="prac.css">
   <title>My site</title>
-</head>
+</head> 
 <body>
   <div class="container" >
     <img src="doctor.jpg" alt="doctor pic">
